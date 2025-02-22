@@ -1,7 +1,7 @@
 "use client"
 import { LuImport } from "react-icons/lu";
 import { motion } from "framer-motion";
-import samin from "../assets/samin.jpeg";
+import samin from "../assets/samin.jpg";
 import Image from "next/image";
 
 function Hero() {
