@@ -25,7 +25,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  " React.js , Next.js , Node.js , MongoDB , TailwindCSS , MySql , Javascript , Typescript , Git , ";
+  " React.js , Next.js , TailwindCSS , Javascript , Typescript , Node.js , MongoDB , MySql , PostgreSQL , PrismaORM , Git , Postman , ";
 
 export const PROJECTS = [
   {
