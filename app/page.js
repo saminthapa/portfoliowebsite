@@ -1,7 +1,8 @@
-import About from "./components/About"
+// import About from "./components/About"
 import Contact from "./components/Contact"
 import Hero from "./components/Hero"
 import Marquee from "./components/Marquee"
+import Myprojects from "./components/Myproject"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 // import Work from "./components/Work"
@@ -13,8 +14,9 @@ const page = () => {
       <Navbar />
       <Hero />
       <Marquee />
-      <Projects />
-      <About />
+      <Myprojects />
+      {/* <Projects /> */}
+      {/* <About /> */}
       {/* <Work /> */}
       <Contact />
     </main>

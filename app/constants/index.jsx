@@ -1,9 +1,7 @@
 import {
-  FaXTwitter,
   FaGithub,
   FaLinkedin,
   FaFacebook,
-  FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
@@ -25,7 +23,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  " React.js , Next.js , TailwindCSS , Javascript , Typescript , Node.js , MongoDB , MySql , PostgreSQL , PrismaORM , Git , Postman , ";
+  " , React.js , Next.js , TailwindCSS , Typescript , Node.js , PHP , Laravel , MySql , PostgreSQL , PrismaORM , Git , Postman ";
 
 export const PROJECTS = [
   {
@@ -124,17 +122,9 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://www.facebook.com/samin.thapa.90",
     icon: <FaFacebook fontSize={26} className="hover:text-lime-300" />,
   },
-  // {
-  //   href: "https://x.com/",
-  //   icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
-  // },
   {
     href: "https://www.instagram.com/im_saminthapa/",
     icon: <FaInstagram fontSize={26} className="hover:text-lime-300" />,
-  },
-  {
-    href: "https://x.com/SaminThapa10",
-    icon: <FaXTwitter fontSize={26} className="hover:text-lime-300" />,
   },
   {
     href: "https://github.com/saminthapa",
@@ -144,7 +134,16 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.linkedin.com/in/samin-thapa-kshetry-96043425b/",
     icon: <FaLinkedin fontSize={26} className="hover:text-lime-300" />,
-  },
+   },
+  
+  // {
+  //   href: "https://www.youtube.com/@Samin_Thapa",
+  //   icon: <FaLinkedin fontSize={26} className="hover:text-lime-300" />,
+  // },
+  // {
+  //   href: "https://www.linkedin.com/in/samin-thapa-kshetry-96043425b/",
+  //   icon: <FaLinkedin fontSize={26} className="hover:text-lime-300" />,
+  // },
 ];
 
 export const CONTACT = {

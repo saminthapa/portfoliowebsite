@@ -22,16 +22,7 @@ function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <a
-            href="/samin_thapa_f.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="flex items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400"
-          >
-            <span>Resume.pdf</span>
-            <LuImport className="ml-2" />
-          </a>
+          <p>Full-Stack Developer / Founder of <a href="https://yatrax.vercel.app/">YatraX</a></p>
         </motion.div>
 
         <motion.div
