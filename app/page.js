@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import Marquee from "./components/Marquee"
 import Myprojects from "./components/Myproject"
 import Navbar from "./components/Navbar"
-import Projects from "./components/Projects"
+// import Projects from "./components/Projects"
 // import Work from "./components/Work"
 
 const page = () => {

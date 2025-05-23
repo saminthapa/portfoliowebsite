@@ -3,21 +3,14 @@ import {
   FaLinkedin,
   FaFacebook,
   FaInstagram,
+  FaTiktok,
 } from "react-icons/fa6";
 
-import project1 from "../assets/stk_travel.jpg";
-import project2 from "../assets/car_rental.jpg";
-import project3 from "../assets/yatrax.jpg";
-// import project4 from "../assets/project4.webp";
-// import project5 from "../assets/project5.webp";
-// import project6 from "../assets/project6.webp";
-// import project7 from "../assets/project7.webp";
-// import project8 from "../assets/project8.webp";
-// import project9 from "../assets/project9.webp";
 
 export const LINKS = [
+  { id: "hero", name: "home" },
   { id: "projects", name: "projects" },
-  { id: "about", name: "about" },
+  // { id: "about", name: "about" },
   // { id: "experience", name: "experience" },
   { id: "contact", name: "Contact" },
 ];
@@ -25,80 +18,6 @@ export const LINKS = [
 export const MARQUEE_TEXT =
   " , React.js , Next.js , TailwindCSS , Typescript , Node.js , PHP , Laravel , MySql , PostgreSQL , PrismaORM , Git , Postman ";
 
-export const PROJECTS = [
-  {
-    id: 1,
-    title: "Travel App Website",
-    description:
-      "Built with Next.js , TypeScript and tailwindCSS, STK Travel offers a seamless platform for discovering nature-based destinations and planning outdoor adventures.",
-    imgSrc: project1,
-    link: "https://stk-travel.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Car Rental Website",
-    description:
-      "Built with Next.js, Clerk for authentication, and Hygraph as the CMS, this car rental platform offers a seamless booking experience.",
-    imgSrc: project2,
-    link: "https://car-rental-saminthapa.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "IT Company Website",
-    description:
-      "Built with Next.js , TypeScript, tailwindCSS, Aceternity UI, Framer Motion and more.",
-    imgSrc: project3,
-    link: "https://yatrax.vercel.app/",
-  },
-  // {
-  //   id: 4,
-  //   title: "Blog Platform",
-  //   description:
-  //     "A blogging platform with user authentication and content management.",
-  //   imgSrc: project4,
-  //   link: "https://example.com/blog-platform",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Task Management Tool",
-  //   description: "A task management tool to organize and prioritize work.",
-  //   imgSrc: project5,
-  //   link: "https://example.com/task-management-tool",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Online Learning Platform",
-  //   description:
-  //     "An online learning platform offering various courses and resources.",
-  //   imgSrc: project6,
-  //   link: "https://example.com/online-learning-platform",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Fitness Tracker",
-  //   description: "A mobile application to track fitness activities and goals.",
-  //   imgSrc: project7,
-  //   link: "https://example.com/fitness-tracker",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Recipe App",
-  //   description: "An app for browsing and saving various cooking recipes.",
-  //   imgSrc: project8,
-  //   link: "https://example.com/recipe-app",
-  // },
-  // {
-  //   id: 9,
-  //   title: "Weather Dashboard",
-  //   description:
-  //     "A weather dashboard providing current weather data and forecasts.",
-  //   imgSrc: project9,
-  //   link: "https://example.com/weather-dashboard",
-  // },
-];
-
-export const ABOUT =
-  "As a passionate Full Stack Developer, I build scalable and high-performance web applications with a focus on seamless user experiences. Proficient in React.js, Next.js, and TailwindCSS for the frontend, I also specialize in backend development using Node.js, MongoDB, and MySQL. With strong skills in JavaScript and TypeScript, I stay updated with modern technologies to create efficient and future-ready solutions.";
 
 export const EXPERIENCES = [
   {
@@ -123,7 +42,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaFacebook fontSize={26} className="hover:text-lime-300" />,
   },
   {
-    href: "https://www.instagram.com/im_saminthapa/",
+    href: "https://www.instagram.com/saminthapa_/",
     icon: <FaInstagram fontSize={26} className="hover:text-lime-300" />,
   },
   {
@@ -135,15 +54,10 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://www.linkedin.com/in/samin-thapa-kshetry-96043425b/",
     icon: <FaLinkedin fontSize={26} className="hover:text-lime-300" />,
    },
-  
-  // {
-  //   href: "https://www.youtube.com/@Samin_Thapa",
-  //   icon: <FaLinkedin fontSize={26} className="hover:text-lime-300" />,
-  // },
-  // {
-  //   href: "https://www.linkedin.com/in/samin-thapa-kshetry-96043425b/",
-  //   icon: <FaLinkedin fontSize={26} className="hover:text-lime-300" />,
-  // },
+  {
+    href: "https://www.tiktok.com/@saminthapa55?_t=ZS-8wabFhKu8ZO&_r=1",
+    icon: <FaTiktok fontSize={26} className="hover:text-lime-300" />,
+  },
 ];
 
 export const CONTACT = {

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section>
+    <section id="hero">
       <div className="flex flex-col items-center justify-center">
         <motion.h1
           className="mt-16 overflow-hidden text-[12vw] font-semibold uppercase leading-none"
