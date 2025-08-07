@@ -22,7 +22,7 @@ function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <p>Full-Stack Developer / Founder of <a href="https://yatrax.vercel.app/">YatraX</a></p>
+          <p>Full-Stack Developer</p>
         </motion.div>
 
         <motion.div
