@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useEffect } from "react";
 import { motion } from "framer-motion";
@@ -7,32 +7,43 @@ import "aos/dist/aos.css";
 import { Eye } from "lucide-react";
 
 const projects = [
-    {
-      title: "Gym Website",
-      description: "Modern, high-performance website for a Muay Thai gym with responsive design and SEO optimization.",
-      tech: ["Next.js", "Tailwind CSS", "Responsive Design"],
-      image: "/project/rhino.png",
-      demoLink: "https://rhinomuaythai.com/",
-      codeLink: null, // You can remove the codeLink display logic if null
-    },
-    {
-      title: "Photo & Videography Website",
-      description: "Creative portfolio website for a photo & videography studio with smooth animations and online booking.",
-      tech: ["Next.js", "Tailwind CSS", "Framer Motion", "SEO"],
-      image: "/project/destiny.png",
-      demoLink: "http://destinyfilms.com.np/",
-      codeLink: null,
-    },
-    {
-      title: "E-Commerce Website",
-      description: "A full-featured e-commerce platform for a clothing brand with pagination and admin panel.",
-      tech: ["Next.js", "Postgresql", "PrismaORM", "Cloudinary"],
-      image: "/project/essence.png",
-      demoLink: "https://www.essencenp.com/",
-      codeLink: null,
-    },
-  ];
-  
+  {
+    title: "Gym Website",
+    description:
+      "Modern, high-performance website for a Muay Thai gym with responsive design and SEO optimization.",
+    tech: ["Next.js", "Tailwind CSS", "Animation" , "Responsive Design"],
+    image: "/project/rhino.png",
+    demoLink: "https://rhinomuaythai.com/",
+    codeLink: null,
+  },
+  {
+    title: "Car Rent Website",
+    description:
+      "A full-featured Car Rental platform with authentication and API.",
+    tech: ["Next.js", "GraphQL", "Clerk Authentication", "Database", "API", "TypeScript"],
+    image: "/project/car_rental.png",
+    demoLink: "https://car-rental-saminthapa.vercel.app/",
+    codeLink: null,
+  },
+  {
+    title: "E-Commerce Website",
+    description:
+      "A full-featured e-commerce platform for a clothing brand with pagination and admin panel.",
+    tech: ["Next.js", "Postgresql", "PrismaORM", "Cloudinary"],
+    image: "/project/essence.png",
+    demoLink: "https://www.essencenp.com/",
+    codeLink: null,
+  },
+  {
+    title: "Photo & Videography Website",
+    description:
+      "Creative portfolio website for a photo & videography studio with smooth animations and online booking.",
+    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "SEO"],
+    image: "/project/destiny.png",
+    demoLink: "http://destinyfilms.com.np/",
+    codeLink: null,
+  },
+];
 
 const MyProjects = () => {
   useEffect(() => {
@@ -41,12 +52,11 @@ const MyProjects = () => {
 
   return (
     <section id="projects" className="py-24 relative overflow-hidden scroll-smooth">
-     {/* Background Effects in all 4 corners */}
-<div className="absolute top-0 left-0 -ml-40 -mt-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
-<div className="absolute top-0 right-0 -mr-40 -mt-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
-<div className="absolute bottom-0 left-0 -ml-40 -mb-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
-<div className="absolute bottom-0 right-0 -mr-40 -mb-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
-
+      {/* Background Effects in all 4 corners */}
+      <div className="absolute top-0 left-0 -ml-40 -mt-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
+      <div className="absolute top-0 right-0 -mr-40 -mt-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
+      <div className="absolute bottom-0 left-0 -ml-40 -mb-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
+      <div className="absolute bottom-0 right-0 -mr-40 -mb-40 w-96 h-96 bg-lime-400/10 rounded-full blur-3xl pointer-events-none z-0" />
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Title */}
@@ -94,8 +104,7 @@ const MyProjects = () => {
                       target="_blank"
                       className="px-3 py-1 bg-lime-400/20 text-white border border-lime-400/40 text-sm rounded-md hover:bg-lime-400/40 flex items-center gap-1"
                     >
-                      <Eye size={14} />
-                      Demo
+                      <Eye size={14} /> Demo
                     </a>
                   </div>
                 </div>
@@ -124,8 +133,7 @@ const MyProjects = () => {
                     target="_blank"
                     className="px-3 py-2 bg-lime-400/20 text-white border border-lime-400/40 text-sm rounded-md hover:bg-lime-400/40 flex items-center gap-1 w-fit"
                   >
-                    <Eye size={14} />
-                    Demo
+                    <Eye size={14} /> Demo
                   </a>
                 </div>
               </div>

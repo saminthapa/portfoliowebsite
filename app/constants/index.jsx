@@ -61,7 +61,7 @@ export const SOCIAL_MEDIA_LINKS = [
 ];
 
 export const CONTACT = {
-  text: "I’m always eager to take on new challenges and collaborate on exciting projects. Whether you have a clear vision or just want to explore possibilities, let’s connect and create something impactful together. Feel free to reach out and let’s make it happen!",
+  text: "I am a Full Stack Developer with 2+ years of professional experience, specializing in Next.js and Laravel. I build robust, scalable web applications with modern, responsive designs and seamless user experiences. Experienced in freelancing and collaborative projects, I deliver high-quality solutions that meet client requirements efficiently. Open to work opportunities, I bring expertise in frontend and backend development, API integration, database design, and full project lifecycle management. Let’s connect to create impactful digital solutions.",
   email: "thapasamin4@gmail.com",
   phone: "+977 9768887374",
 };
