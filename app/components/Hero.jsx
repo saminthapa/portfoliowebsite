@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { LuImport } from "react-icons/lu";
 import { motion } from "framer-motion";
 import samin from "../assets/samin.jpg";
@@ -14,7 +14,8 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <span className="text-black bg-lime-400">Samin</span> <br /> Thapa Kshetri
+          <span className="text-black bg-lime-400">Samin</span> <br /> Thapa
+          Kshetry
         </motion.h1>
         <motion.div
           className="mt-8"
@@ -22,7 +23,7 @@ function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <p>Full-Stack Developer</p>
+          <p>Custom Website & Management System Developer</p>
         </motion.div>
 
         <motion.div
@@ -31,7 +32,11 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <Image src={samin} alt="Samin Thapa" className="mt-8 h-96 w-full object-cover" />
+          <Image
+            src={samin}
+            alt="Samin Thapa"
+            className="mt-8 h-96 w-full object-cover"
+          />
         </motion.div>
       </div>
     </section>

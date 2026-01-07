@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Samin Thapa",
-  description: "Personal Website of STK",
+  title: "Website & Management System Developer in Nepal | Samin Thapa",
+  description: "Custom website and management system developer in Nepal. I build business websites, SaaS platforms, and custom software using Laravel and Next.js.",
 };
 
 export default function RootLayout({ children }) {

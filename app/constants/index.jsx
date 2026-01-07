@@ -61,7 +61,7 @@ export const SOCIAL_MEDIA_LINKS = [
 ];
 
 export const CONTACT = {
-  text: "I am a Full Stack Developer with 2+ years of professional experience, specializing in Next.js and Laravel. I build robust, scalable web applications with modern, responsive designs and seamless user experiences. Experienced in freelancing and collaborative projects, I deliver high-quality solutions that meet client requirements efficiently. Open to work opportunities, I bring expertise in frontend and backend development, API integration, database design, and full project lifecycle management. Let’s connect to create impactful digital solutions.",
+  text: "I am a Full-Stack Website & Software Developer in Nepal specializing in custom websites, SaaS platforms, and management systems using Laravel and Next.js. I help businesses automate operations, manage data, and grow digitally through tailored software solutions.",
   email: "thapasamin4@gmail.com",
   phone: "+977 9768887374",
 };
