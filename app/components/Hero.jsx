@@ -1,6 +1,6 @@
 "use client";
 import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion";
-import samin from "../assets/samin.jpg";
+import samin from "../assets/samin2.jpg";
 import Image from "next/image";
 import { useRef, useEffect, useState } from "react";
 

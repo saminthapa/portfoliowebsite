@@ -61,7 +61,7 @@ const MarqueeCTA = () => {
       <motion.div
         className="flex whitespace-nowrap"
         animate={{ x: ["0%", "-50%"] }}
-        transition={{ duration: 18, repeat: Infinity, ease: "linear" }}
+        transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
       >
         {[...items, ...items].map((text, i) => (
           <span
