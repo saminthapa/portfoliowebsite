@@ -11,6 +11,14 @@ const dmMono = DM_Mono({ weight: ["300", "400", "500"], subsets: ["latin"], disp
 const EASE = [0.22, 1, 0.36, 1];
 
 const projects = [
+   {
+  title: "YatraX",
+  description: "Professional IT company website with a modern, interactive interface, smooth animations, and responsive design.",
+  tech: ["Next.js", "GSAP", "Framer Motion", "Motion"],
+  image: "/project/yatrax.png",
+  demoLink: "https://yatrax.saminthapa.com.np/",
+  category: "Web Design",
+},
   {
     title: "Gym Website",
     description: "Modern, high-performance website for a Muay Thai gym with responsive design and SEO optimization.",
