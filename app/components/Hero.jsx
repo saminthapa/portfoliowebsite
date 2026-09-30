@@ -139,7 +139,7 @@ function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 1.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          {new Date().getFullYear()}
+          2026
         </motion.div>
 
         {/* MAIN HEADING */}

@@ -8,11 +8,13 @@ const dmMono = DM_Mono({ weight: ["300", "400"], subsets: ["latin"], display: "s
 
 const FULLSTACK_SKILLS = [
   "React", "Next.js", "TypeScript", "Node.js", "Tailwind CSS",
-  "PostgreSQL", "MongoDB", "REST API", "Git", "Figma",
+  "PostgreSQL", "MongoDB", "REST API", "Git", "Python",
+  "Express.js", "C", "C++", "C#", "JavaScript",
+  "TypeScript", "TailwindCSS",
 ]
 
 const PM_SKILLS = [
-  "Agile", "Scrum", "Jira", "Product Roadmap", "Sprint Planning",
+  "Agile", "Scrum", "Jira", "Product Roadmap", "Sprint Planning", "Excel",
   "Stakeholder Management", "Risk Assessment", "Kanban", "Confluence", "OKRs",
 ]
 
